@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/logo/logo2.png">
+    <!-- Other css -->
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/icofont.min.css">
+    <link rel="stylesheet" href="assets/css/swiper.min.css">
+    <link rel="stylesheet" href="assets/css/hc-offcanvas-nav.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>"LUX" team</title>
+</head>
+
+<body>
+    <!-- preloader start here -->
+    <div class="preloader">
+        <div class="preloader-inner">
+            <div class="preloader-icon">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+    <!-- preloader ending here -->
+
+
+    <!-- ========== Mobile-nav section start here ========== -->
+    <div class="mobile-menu">
+        <div class="container">
+            <div class="mobile-menu-wrapper">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="assets/images/logo/logo.png" alt="Mukti">
+                    </a>
+                </div>
+                <div class="open-menu"><i class="icofont-navigation-menu"></i></div>
+            </div>
+            <nav id="mobile-nav">
+                <ul class="home-nav">
+                    <li class="home">
+                        <a href="index.html">Bosh sahifa</a>
+                        <ul>
+                            <li><a href="index.html">Home-1</a></li>
+                            <li><a href="index-2.html">Home-2</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="depart-nav">
+                    <li class="depart">
+                        <a href="department.html">Department</a>
+                    </li>
+                </ul>
+                <ul class="doctor-nav">
+                    <li class="doctor">
+                        <a href="doctor.html">Doctors</a>
+                        <ul>
+                            <li><a href="doctor.html">Doctors</a></li>
+                            <li><a href="doctor-single.html">Doctor Single</a></li>
+                            <li><a href="doctor-timeline.html">Doctor Timeline</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="service-nav">
+                    <li class="service">
+                        <a href="service.html">Services</a>
+                        <ul>
+                            <li><a href="service.html">Services</a></li>
+                            <li><a href="service-single.html">Service Single</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="shop-nav">
+                    <li class="shop">
+                        <a href="shop.html">Shop</a>
+                        <ul>
+                            <li><a href="shop.html">Shop</a></li>
+                            <li><a href="shop-single.html">Shop Single</a></li>
+                            <li><a href="cart.html">Shop Cart</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="blog-nav">
+                    <li class="blog">
+                        <a href="blog.html">Blog</a>
+                        <ul>
+                            <li><a href="blog.html">Blog Page</a></li>
+                            <li><a href="blog-single.html">Blog Single</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="short-nav">
+                    <li class="short">
+                        <a href="contact.html">Pages</a>
+                        <ul>
+                            <li><a href="about.html">About Page</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="404.html">404 Error</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+            </nav>
+        </div>
+    </div>
+    <!-- ========== Mobile-nav section end here ========== -->
+
+
+    <!-- ==========Header Section Starts Here========== -->
+    <header class="header-section d-none d-lg-block">
+
+        <div class="header-bottom">
+            <nav class="container">
+                <div class="primary-menu">
+                    <div class="menu-area">
+                        <div class="row justify-content-between px-15">
+                            <ul class="main-menu d-flex align-items-center">
+                                <li>
+                                    <a href="index.html" class="logo"><img src="assets/images/logo/logo.png"
+                                            alt="logo"></a>
+                                </li>
+                                <li class="active">
+                                    <a href="index.html">BOSH SAHIFA</a>
+                                </li>
+                                <li><a href="doctor.html">SHIFOKORLAR</a>
+                                </li>
+                                <li><a href="service.html">XIZMATLAR</a>
+                                </li>
+                                <li><a href="blog.html">YANGILIKLAR</a>
+                                </li>
+                            </ul>
+                            <ul class="nav-widget d-flex justify-content-between align-items-center">
+                                <li class="nav-search">
+                                    <input type="text" name="search" placeholder="Izlash ...">
+                                    <span class="search"><i class="icofont-search-1"></i></span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- ==========Header Section Ends Here========== -->
+
+
+    <!-- ==========Banner Section Start Here========== -->
+    <!-- <section class="banner-section" style="background-image: url(assets/images/banner/1.jpg);">
+        <div class="container">
+            <div class="banner-wrapper">
+                <div class="banner-content">
+                    <h2 class="wow fadeInDown" data-wow-duration="2s" data-wow-delay=".1s">Best Medical
+                        Clinic
+                    </h2>
+                    <h1 class="wow fadeInLeft" data-wow-duration="2s" data-wow-delay=".1s"><b>Bringing
+                            Health</b> To Life For The Whole Family...</h1>
+                    <a href="#" class="lab-btn wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s"><span>Get
+                            Appoinments <i class="icofont-rounded-double-right"></i></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <section class="banner-section">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+
+                <div class="carousel-item active" style="background-image: url('assets/images/banner/1.jpg');">
+                    <div class="blur"></div>
+                    <div class="carousel-caption d-none d-md-block text-left" style="z-index: 4; bottom: 80px;">
+                        <h2 class="wow fadeInDown text-white" data-wow-duration="2s" data-wow-delay=".1s">Oliy Maqsad :
+                        </h2>
+                        <h1 class="wow fadeInLeft text-left  text-white" data-wow-duration="2s" data-wow-delay=".1s">
+                            Bemorlarimiz va ularning oila a'zolarining hayotini yaxshilash</h1>
+
+                    </div>
+                </div>
+                <!-- <div class="carousel-item" style="background-image: url('assets/images/banner/2.jpg');">
+                    <div class="blur"></div>
+                    <div class="carousel-caption d-none d-md-block text-left" style="z-index: 4; bottom: 80px;">
+                        <h1 class="wow fadeInDown text-white" data-wow-duration="2s" data-wow-delay=".1s">
+                            Biz har bir bemor salomatligi uchun qayg'uramiz !
+                        </h1>
+                        
+                    </div>
+                </div>
+                <div class="carousel-item" style="background-image: url('assets/images/banner/4.jpg');">
+                    <div class="blur"></div>
+                    <div class="carousel-caption d-none d-md-block text-left" style="z-index: 4; bottom: 80px;">
+
+                        <h1 style="font-size: 350%;" class="wow fadeInLeft text-left  text-white" data-wow-duration="2s"
+                            data-wow-delay=".1s">
+                            Biz sizga amaliy va onlayn maslahatlar orqali yordam berish uchun shu yerdamiz.</h1>
+
+                    </div>
+                </div> -->
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </section>
+
+
+    <!-- ==========Banner Section Ends Here========== -->
+
+
+    <!-- ==========Feature Section Start Here========== -->
+    <section class="feature-section padding-tb bg-color">
+        <div class="container">
+            <div class="feature-section-wrapper">
+                <div class="section-header wow fadeInUp" data-wow-delay="" data-wow-duration="1s">
+                    <h2> Nega aynan biz? </h2>
+                </div>
+                <div class="section-content">
+                    <div class="row justify-content-center">
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                            <div class="lab-item feature-item wow fadeInLeft" data-wow-delay=".2s"
+                                data-wow-duration="1s">
+                                <div class="lab-inner">
+                                    <div class="lab-thumb">
+                                        <img src="assets/images/feature/1.png" alt="feature img">
+                                    </div>
+                                    <div class="lab-content">
+                                        <h4>24/7 Online Yordam</h4>
+                                        <p>Biz sizga 24/7 amaliy va onlayn maslahatlar orqali yordam beramiz.
+                                        </p>
+                                        <a href="#" class=""><span>Batafsil ... <i
+                                                    class="icofont-rounded-double-right"></i></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                            <div class="lab-item feature-item wow fadeInUp" data-wow-delay=".2s" data-wow-duration="1s">
+                                <div class="lab-inner">
+                                    <div class="lab-thumb">
+                                        <img src="assets/images/feature/2.png" alt="feature img">
+                                    </div>
+                                    <div class="lab-content">
+                                        <h4>Sifat va qulaylik</h4>
+                                        <p>Sifatli va sara ma'lumotlarga, faqat bizning sayt orqali birichi bo'lib
+                                            xabardor bo'ling</p>
+                                        <a href="#" class=""><span>Batafsil ... <i
+                                                    class="icofont-rounded-double-right"></i></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                            <div class="lab-item feature-item wow fadeInUp" data-wow-delay=".2s" data-wow-duration="1s">
+                                <div class="lab-inner">
+                                    <div class="lab-thumb">
+                                        <img src="assets/images/feature/3.png" alt="feature img">
+                                    </div>
+                                    <div class="lab-content">
+                                        <h4>Tezkor Online Maslahat</h4>
+                                        <p>Avto javob qaytaruvchi orqali tezkor ma'lumotlar oling yoki doctorlar bilan
+                                            bog'laning</p>
+                                        <a href="#" class=""><span>Batafsil ... <i
+                                                    class="icofont-rounded-double-right"></i></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                            <div class="lab-item feature-item wow fadeInRight" data-wow-delay=".2s"
+                                data-wow-duration="1s">
+                                <div class="lab-inner">
+                                    <div class="lab-thumb">
+                                        <img src="assets/images/feature/4.png" alt="feature img">
+                                    </div>
+                                    <div class="lab-content">
+                                        <h4>Tajribali Shifokorlar</h4>
+                                        <p>Ko'p yillik tajribaga ega shifokorlar sizning xizmatingizda.
+                                        </p>
+                                        <a href="#" class=""><span>Batafsil ... <i
+                                                    class="icofont-rounded-double-right"></i></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ==========Feature Section Ends Here========== -->
+
+
+    <!-- ==========Department Section Start Here========== -->
+    <section class="department-section padding-tb style-1">
+        <div class="container">
+            <div class="department-wrapper">
+                <div class="section-header">
+                    <h2>OIV qanday yuqishi mumkin?</h2>
+                </div>
+                <div class="section-content">
+                    <div class="row">
+                        <div class="col-12 col-xl-12">
+                            <div class="">
+                                <div class="department-top">
+                                    <ul class="nav dep-tab" role="tablist">
+                                        <li class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
+                                            <a class="" href="#one" role="tab" data-toggle="tab"><img
+                                                    src="assets/images/depart/icon/03.png" alt="depart"></a>
+                                        </li>
+                                        <li class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
+                                            <a class="" href="#four" role="tab" data-toggle="tab"><img
+                                                    src="assets/images/depart/icon/04.png" alt="depart"></a>
+                                        </li>
+                                        <li class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".7s">
+                                            <a class="" href="#eight" role="tab" data-toggle="tab"><img
+                                                    src="assets/images/depart/icon/08.png" alt="depart"></a>
+                                        </li>
+                                        <li class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".8s">
+                                            <a class="" href="#nine" role="tab" data-toggle="tab"><img
+                                                    src="assets/images/depart/icon/09.png" alt="depart"></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="department-bottom wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
+                                <div class="tab-content">
+                                    <div role="tabpanel" class="tab-pane fade in active" id="one">
+                                        <div class="row flex-row-reverse align-items-center">
+                                            <div class="col-12 col-lg-6">
+                                                <div class="post-thumb">
+                                                    <img src="assets/images/depart/1.png" alt="depart">
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-6">
+                                                <div class="post-content">
+                                                    <h3>Onadan bolaga</h3>
+                                                    <p>OIV infektsiyasining onadan bolaga o'tishi (OIV) infektsiyasi
+                                                        onaning bolasiga homiladorlik, tug'ish yoki tug'ruqdan keyingi
+                                                        davrda emizish orqali yuqishi tushuniladi. OIV-1 infektsiyasi
+                                                        tez-tez onadan bolaga uzatiladi, garchi OIV-2 bu tarzda
+                                                        kamdan-kam hollarda yuqadi. Infektsiyalangan bolalarda tug'ilish
+                                                        paytida kamdan -kam hollarda OIV belgilari yoki alomatlari
+                                                        kuzatiladi, lekin odatda keyingi oylarda rivojlanadi.</p>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane fade in" id="four">
+                                        <div class="row flex-row-reverse align-items-center">
+                                            <div class="col-12 col-lg-6">
+                                                <div class="post-thumb">
+                                                    <img src="assets/images/depart/2.png" alt="depart">
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-6">
+                                                <div class="post-content">
+                                                    <h3>Jinsiy aloqa</h3>
+                                                    <p>Bu yo‘l bilan zararlangan jinsiy suyuqliklar (rektal, genital va
+                                                        og‘izning shilliq qavat) natijasida yuqadi. Bu holat jinsiy
+                                                        aloqa paytida himoya vositalaridan foydalanilmaganda, atipik
+                                                        jinsiy aloqa bo‘lganda, yoki ishlatiladigan ashyolar orqali
+                                                        sodir bo‘lishi mumkin.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane fade in" id="eight">
+                                        <div class="row flex-row-reverse align-items-center">
+                                            <div class="col-12 col-lg-6">
+                                                <div class="post-thumb">
+                                                    <img src="assets/images/depart/3.png" alt="depart">
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-6">
+                                                <div class="post-content">
+                                                    <h3>Qon orqali </h3>
+                                                    <p>Hozirgi vaqtda qon quyish orqali OIV yuqtirish xavfi rivojlangan
+                                                        mamlakatlarda juda ehtiyotkorlik bilan tekshiruv va ehtiyot
+                                                        choralari tufayli juda past. Shu bilan birga, giyohvand
+                                                        moddalarni qabul qiluvchilar yoki bemorning qoni bilan
+                                                        zararlangan shpritslarni qayta ishlatish oqibatida kasallik
+                                                        yuqish xavfi juda yuqori.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane fade in" id="nine">
+                                        <div class="row flex-row-reverse align-items-center">
+                                            <div class="col-12 col-lg-6">
+                                                <div class="post-thumb">
+                                                    <img src="assets/images/depart/4.png" alt="depart">
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-6">
+                                                <div class="post-content">
+                                                    <h3>Boshqa yo'llar orqali</h3>
+                                                    <p>Hozirgi vaqtda virus infektsiyasining ushbu versiyasi eng keng
+                                                        tarqalgan. Ilmiy tadqiqot shuni ko'rsatdiki, tupurik orqali OITS
+                                                        yuqishi mumkin. Shu bilan birga, bemorning suyuqligi uchun ikki
+                                                        litrdan ko'proq suyuqlik kerak. Bu tupurikdagi OIV
+                                                        infektsiyasining past konsentratsiyasi bilan bog'liq. Shuning
+                                                        uchun OITSni o'pish orqali yuqtirish ehtimoli juda kam. <br>Ammo
+                                                        ishlatilgan idish yoki sochiq orqali OIV infektsiyasini
+                                                        yuqtirish mumkin emas. Havo bilan aloqa qilganda, odamning
+                                                        immunitet tanqisligi virusi darhol o'ladi. Va oddiy kasal
+                                                        odamning tupurik suyuqligida infektsiyaning kontsentratsiyasi
+                                                        juda oz.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ==========Department Section Ends Here========== -->
+
+
+    <!-- ==========Counter Section Start Here========== -->
+    <div class="counter-section style-1 padding-60">
+        <div class="container">
+            <div class="section-wrapper">
+                <div class="counter-item wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".1s">
+                    <div class="counter-item-inner">
+                        <div class="counter-thumb">
+                            <img src="assets/images/counter/01.png" alt="counter">
+                        </div>
+                        <div class="counter-content">
+                            <h3 class="number"><span class="counter">500</span></h3>
+                            <p class="post-content">Baxtli bemorlar</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="counter-item wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".2s">
+                    <div class="counter-item-inner">
+                        <div class="counter-thumb">
+                            <img src="assets/images/counter/02.png" alt="counter">
+                        </div>
+                        <div class="counter-content">
+                            <h3 class="number"><span class="counter">400</span></h3>
+                            <p class="post-content">Tibbiy xodimlar soni</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="counter-item wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">
+                    <div class="counter-item-inner">
+                        <div class="counter-thumb">
+                            <img src="assets/images/counter/03.png" alt="counter">
+                        </div>
+                        <div class="counter-content">
+                            <h3 class="number"><span class="counter">12</span></h3>
+                            <p class="post-content">Ko'p yillik tajriba</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="counter-item wow fadeInRight" data-wow-duration="1s" data-wow-delay=".4s">
+                    <div class="counter-item-inner">
+                        <div class="counter-thumb">
+                            <img src="assets/images/counter/04.png" alt="counter">
+                        </div>
+                        <div class="counter-content">
+                            <h3 class="number"><span class="counter">15</span></h3>
+                            <p class="post-content">Davolash yo'nalishi</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ==========Counter Section Ends Here========== -->
+
+
+    <!-- ==========Service Section Start Here========== -->
+    <section class="service-section style-1 padding-tb bg-color">
+        <div class="container">
+            <div class="section-header wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
+                <h2><span>We Are</span></h2>
+                <h2>Offering Reliable Services</h2>
+            </div>
+            <div class="section-wrapper">
+                <div class="service-item wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
+                    <div class="service-inner">
+                        <div class="service-thumb">
+                            <img src="assets/images/service/01.jpg" alt="service">
+                        </div>
+                        <div class="service-content">
+                            <h4><a href="#">Family Health Solutions</a></h4>
+                            <p>Proced arrain manu produc rather conve quvat mantan this conven multscplinari testin
+                                motin was procedur aamng proced arrain manu produc rather conve quvat mantan this
+                                convenmultscplinari testiners motin was procedur arraming</p>
+                            <a href="#" class="lab-btn"><span>Read More <i
+                                        class="icofont-rounded-double-right"></i></span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-item wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".2s">
+                    <div class="service-inner">
+                        <div class="service-thumb">
+                            <img src="assets/images/service/02.jpg" alt="service">
+                        </div>
+                        <div class="service-content">
+                            <h4><a href="#">Eye Care Solutions</a></h4>
+                            <p>Cabor levera then andin the
+                                Qualit bwdh then covae thm
+                                Uabor evera then andin meqe
+                                Any value cordin</p>
+                            <a href="#" class="lab-btn"><span>Read More <i
+                                        class="icofont-rounded-double-right"></i></span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-item wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">
+                    <div class="service-inner">
+                        <div class="service-thumb">
+                            <img src="assets/images/service/03.jpg" alt="service">
+                        </div>
+                        <div class="service-content">
+                            <h4><a href="#">Children’s Health</a></h4>
+                            <p>Cabor levera then andin the
+                                Qualit bwdh then covae thm
+                                Uabor evera then andin meqe
+                                Any value cordin</p>
+                            <a href="#" class="lab-btn"><span>Read More <i
+                                        class="icofont-rounded-double-right"></i></span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-item wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+                    <div class="service-inner">
+                        <div class="service-thumb">
+                            <img src="assets/images/service/04.jpg" alt="service">
+                        </div>
+                        <div class="service-content">
+                            <h4><a href="#">Dental Surgery</a></h4>
+                            <p>Proced arrain manu produc rather conve quvat mantan this conven multscplinari testin
+                                motin was procedur aamng proced arrain manu produc rather conve quvat mantan this
+                                convenmultscplinari testiners motin was procedur arraming</p>
+                            <a href="#" class="lab-btn"><span>Read More <i
+                                        class="icofont-rounded-double-right"></i></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ==========Service Section Ends Here========== -->
+
+
+    <!-- ==========Doctor Section Start Here========== -->
+    <section class="doctor-section style-1 padding-tb">
+        <div class="container">
+            <div class="section-header wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
+
+                <h2>Bizning shifokorlar</h2>
+            </div>
+            <div class="section-wrapper">
+                <div class="row justify-content-center">
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                        <div class="doctor-item style-1 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
+                            <div class="doctor-inner">
+                                <div class="doctor-thumb">
+                                    <img src="assets/images/team/4.png" alt="doctor">
+                                </div>
+                                <div class="doctor-content">
+                                    <div class="doctor-name">
+                                        <h4><a href="#">Dr. Anvarjon Jurayev</a></h4>
+                                        <p class="digi">Bosh shifokor</p>
+                                    </div>
+                                    <ul class="doctor-contact">
+                                        <li><span>Phone :</span> +99890 999 98 89</li>
+                                        <li><span>Email :</span> anvar@gmail.com</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                        <div class="doctor-item style-1 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
+                            <div class="doctor-inner">
+                                <div class="doctor-thumb">
+                                    <img src="assets/images/team/2.png" alt="doctor">
+                                </div>
+                                <div class="doctor-content">
+                                    <div class="doctor-name">
+                                        <h4><a href="#">Dr. Anatoliy Evgeniy</a></h4>
+                                        <p class="digi">Pediator</p>
+                                    </div>
+                                    <ul class="doctor-contact">
+                                        <li><span>Phone :</span> +99894 270 77 77</li>
+                                        <li><span>Email :</span> anatoliy@gmail.com</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                        <div class="doctor-item style-1 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
+                            <div class="doctor-inner">
+                                <div class="doctor-thumb">
+                                    <img src="assets/images/team/3.png" alt="doctor">
+                                </div>
+                                <div class="doctor-content">
+                                    <div class="doctor-name">
+                                        <h4><a href="#">Dr. Elena Kim</a></h4>
+                                        <p class="digi">Immunolog</p>
+                                    </div>
+                                    <ul class="doctor-contact">
+                                        <li><span>Phone :</span> +99891 700 00 07</li>
+                                        <li><span>Email :</span> elena@gmail.com</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                        <div class="doctor-item style-1 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+                            <div class="doctor-inner">
+                                <div class="doctor-thumb">
+                                    <img src="assets/images/team/1.png" alt="doctor">
+                                </div>
+                                <div class="doctor-content">
+                                    <div class="doctor-name">
+                                        <h4><a href="#">Dr. Lola Araliyeva</a></h4>
+                                        <p class="digi">Terapist</p>
+                                    </div>
+                                    <ul class="doctor-contact">
+                                        <li><span>Phone :</span> +99869 696 69 69</li>
+                                        <li><span>Email :</span> lola@gmail.com</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="doctor-btn text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+                <a href="#" class="lab-btn"><span> Barcha shifokorlar <i
+                            class="icofont-rounded-double-right"></i></span></a>
+            </div>
+        </div>
+    </section>
+    <!-- ==========Doctor Section Ends Here========== -->
+
+
+    <!-- ==========Appointment Section Start Here========== -->
+    <section class="appointment-section style-1"
+        style="background: url(assets/images/apport/1.png); background-position: center; background-repeat: no-repeat; background-size: cover; opacity: 0.7;">
+        <div class="container">
+            <div class="section-wrapper">
+                <!-- <div class="appointment-left wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".1s">
+                    <div class="time-info">
+                        <div class="al-title">
+                            <h2><span>24 Hours </span></h2>
+                            <h2>Opening Our Services</h2>
+                        </div>
+                        <div class="dep-item">
+                            <div class="dep-item-inner">
+                                <div class="day-name">Satarday</div>
+                                <div class="day-time">8:00 am-10:00 pm</div>
+                            </div>
+                        </div>
+                        <div class="dep-item">
+                            <div class="dep-item-inner">
+                                <div class="day-name">Sunday</div>
+                                <div class="day-time">6:00 am-8:00 pm</div>
+                            </div>
+                        </div>
+                        <div class="dep-item">
+                            <div class="dep-item-inner">
+                                <div class="day-name">Monday</div>
+                                <div class="day-time">6:00 am-2:00 pm</div>
+                            </div>
+                        </div>
+                        <div class="dep-item">
+                            <div class="dep-item-inner">
+                                <div class="day-name">Tuesday</div>
+                                <div class="day-time">7:00 am-9:00 pm</div>
+                            </div>
+                        </div>
+                        <div class="dep-item">
+                            <div class="dep-item-inner">
+                                <div class="day-name">Widnessday</div>
+                                <div class="day-time">10:00 am-12:00 pm</div>
+                            </div>
+                        </div>
+                        <div class="dep-item">
+                            <div class="dep-item-inner">
+                                <div class="day-name">Thirsday</div>
+                                <div class="day-time">2:00 am-6:00 pm</div>
+                            </div>
+                        </div>
+                        <div class="dep-item">
+                            <div class="dep-item-inner">
+                                <div class="day-name">Friday</div>
+                                <div class="day-time">Closed</div>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+                <div class="appointment-right wow fadeInRight" data-wow-duration="1s" data-wow-delay=".1s">
+                    <div class="ar-title">
+                        <h2>Ko'rikka yo'zilish uchun formani to'ldiring</h2>
+                    </div>
+                    <form action="/">
+                        <input type="text" id="fname" name="firstname" placeholder="Ism">
+                        <input type="text" id="lname" name="lastname" placeholder="Telefon raqam">
+                        <input type="date" id="start" name="trip-start" value="2021-02-21">
+                        <button class="lab-btn" type="submit"><span>Ko'rikka yozilish<i
+                                    class="icofont-double-right"></i></span> </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ==========Appointment Section Ends Here========== -->
+
+
+    <!-- ==========Blog Section Start Here========== -->
+    <section class="blog-section padding-tb bg-color">
+        <div class="container">
+            <div class="section-header wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
+                <h2>So'ngi yangiliklar</h2>
+            </div>
+            <div class="section-wrapper">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-6 col-xl-4 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
+                        <div class="post-item-inner">
+                            <div class="post-thumb">
+                                <a href="assets/images/blog/1.jpg" data-rel="lightcase:myCollection"><img
+                                        src="assets/images/blog/1.png" alt="blog post images"></a>
+                            </div>
+                            <div class="post-content">
+                                <span class="meta">November 24, 2021</span>
+                                <h4><a href="#">Keniyaning g'arbiy qismida OIV bilan kasallangan bolalarning o'limining
+                                        aksariyat
+                                        qismini nazoratsiz OIV sabab bo'ldi</a></h4>
+                                <p> Ushbu tahlil o'lim vaqtida 28 kunda 176 bolani o'z ichiga oldi.</p>
+                            </div>
+                            <div class="blog-footer">
+                                <a href="#" class="viewall">Batafsil <i class="icofont-double-right"></i></a>
+                                <a href="#" class="blog-comment"><i class="icofont-comment"></i> 659</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-xl-4 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
+                        <div class="post-item-inner">
+                            <div class="post-thumb">
+                                <a href="assets/images/blog/2.jpg" data-rel="lightcase:myCollection"><img
+                                        src="assets/images/blog/2.png" alt="blog"></a>
+                            </div>
+                            <div class="post-content">
+                                <span class="meta">December 5, 2021</span>
+                                <h4><a href="#">Olimlar OIV genlari hujayralardan muvaffaqiyatli olib tashlanishini
+                                        topdilar.</a></h4>
+                                <p>Inson sinovlarini boshlashdan oldin ko'plab to'siqlarni yengish kerak.</p>
+                            </div>
+                            <div class="blog-footer">
+                                <a href="#" class="viewall">Batafsil<i class="icofont-double-right"></i></a>
+                                <a href="#" class="blog-comment"><i class="icofont-comment"></i> 589</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-xl-4 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
+                        <div class="post-item-inner">
+                            <div class="post-thumb">
+                                <a href="assets/images/blog/3.jpg" data-rel="lightcase:myCollection"><img
+                                        src="assets/images/blog/3.png" alt="blog"></a>
+                            </div>
+                            <div class="post-content">
+                                <span class="meta">November 12, 2021</span>
+                                <h4><a href="#">OIV bilan kasallangan erkaklarning uchdan bir qismi o'zlarining ijobiy
+                                        holatini bilishmaydi</a></h4>
+                                <p>Tahlil milliy so'rov natijalaridan foydalangan holda amalga oshirildi.</p>
+                            </div>
+                            <div class="blog-footer">
+                                <a href="#" class="viewall">Batafsil <i class="icofont-double-right"></i></a>
+                                <a href="#" class="blog-comment"><i class="icofont-comment"></i> 869</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ==========Blog Section Ends Here========== -->
+
+
+
+
+    <section class="map-section pt-5 mt-5">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3039.1514910479004!2d71.80616585009442!3d40.38333496549418!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38bb848069a2fa8b%3A0x6a946e9663a4ed9e!2sSpid-Tsentr!5e0!3m2!1sen!2s!4v1639607819560!5m2!1sen!2s"
+            width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+
+    <!-- ==========Footer Section Ends Here========== -->
+    <section class="footer-section style-1">
+        <div class="container">
+            <div class="section-wrapper">
+                <div class="footer-top" style="padding: 40px 0;">
+                    <div class="row">
+                        <div class="col-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
+                            <div class="contact-info">
+                                <h3 class="text-center">BOG‘LANISH</h3>
+                                <ul class="lab-ul custom-footer">
+                                    <li><i class="icofont-home"></i>Manzil: Farg'ona viloyati, Farg'ona shahri</li>
+                                    <li><i class="icofont-phone"></i> +998 90 123 45 67</li>
+                                    <li><i class="icofont-envelope"></i> <a href="#"> info@email.com</a></li>
+                                    <li><i class="icofont-globe"></i> <a href="#"> info@gmail.com</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- <div class="col-12 col-sm-6 col-xl-3 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+                            <div class="time-info">
+                                <h3>opening hours</h3>
+                                <div class="dep-item">
+                                    <div class="dep-item-inner d-flex justify-content-between">
+                                        <div class="day-name">Dushanba</div>
+                                        <div class="day-time">8:00 - 22:00</div>
+                                    </div>
+                                </div>
+                                <div class="dep-item">
+                                    <div class="dep-item-inner d-flex justify-content-between">
+                                        <div class="day-name">Seshanba</div>
+                                        <div class="day-time">8:00 - 22:00</div>
+                                    </div>
+                                </div>
+                                <div class="dep-item">
+                                    <div class="dep-item-inner d-flex justify-content-between">
+                                        <div class="day-name">Chorshanba</div>
+                                        <div class="day-time">8:00 - 22:00</div>
+                                    </div>
+                                </div>
+                                <div class="dep-item">
+                                    <div class="dep-item-inner d-flex justify-content-between">
+                                        <div class="day-name">Payshanba</div>
+                                        <div class="day-time">8:00 - 22:00</div>
+                                    </div>
+                                </div>
+                                <div class="dep-item">
+                                    <div class="dep-item-inner d-flex justify-content-between">
+                                        <div class="day-name">Juma</div>
+                                        <div class="day-time">8:00 - 22:00</div>
+                                    </div>
+                                </div>
+                                <div class="dep-item">
+                                    <div class="dep-item-inner d-flex justify-content-between">
+                                        <div class="day-name">Shanba</div>
+                                        <div class="day-time">8:00 - 22:00</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <div class="copyright text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
+                        <span>Designed by <a href="#">"LUX" team</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ==========Footer Section Ends Here========== -->
+
+    <!-- scrollToTop start here -->
+    <a href="#" class="scrollToTop"><i class="icofont-rounded-up"></i></a>
+    <!-- scrollToTop ending here -->
+
+
+
+
+    <!-- All Scripts -->
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/swiper.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/circularProgressBar.min.js"></script>
+    <script src="assets/js/hc-offcanvas-nav.js"></script>
+    <script src="assets/js/functions.js"></script>
+</body>
+
+</html>
