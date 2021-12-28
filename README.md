@@ -1,3 +1,3 @@
 # LUX
 
-https://kamolxonizzatullayev.github.io/LUX_hackathon/
+https://kamolxonizzatullayev.github.io/Lux_/
