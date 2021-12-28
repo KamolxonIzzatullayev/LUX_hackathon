@@ -1,4 +1,3 @@
-# LUX_hackathon
-Officially created for ICT Ferghana hackathon 2021 by "LUX" team
+# LUX
 
 https://kamolxonizzatullayev.github.io/LUX_hackathon/
